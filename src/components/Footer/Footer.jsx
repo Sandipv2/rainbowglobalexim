@@ -1,0 +1,9 @@
+import React from 'react'
+
+function Footer() {
+  return (
+    <div className='bg-slate-800 py-3 text-center text-white'>© 2025 Rainbowglobalexim. All Rights Reserved.</div>
+  )
+}
+
+export default Footer
