@@ -6,6 +6,8 @@ import igLogo from './images/Hero/igLogo.svg'
 import waLogo from './images/Hero/waLogo.svg'
 import phoneLogo from './images/Hero/phoneLogo.svg'
 import gmailLogo from './images/Hero/gmailLogo.svg'
+import menuIcon from './images/Navbar/menuIcon.svg'
+import logo from './images/logo.svg'
 
 export {
     homeSlide1,
@@ -15,5 +17,7 @@ export {
     igLogo,
     waLogo,
     phoneLogo,
-    gmailLogo
+    gmailLogo,
+    menuIcon,
+    logo
 }

@@ -10,7 +10,7 @@ import { homeSlide1, homeSlide2, homeSlide3, homeSlide4, waLogo, igLogo, phoneLo
 
 function Home() {
   return (
-    <div className="relative w-full h-screen">
+    <div id='home' className="relative w-full h-screen">
       <div className="absolute top-0 left-0 z-10 flex flex-col justify-center items-center h-full w-full pointer-events-none gap-4">
         <div className='flex flex-col justify-center items-center gap-3'>
           <h1 className="text-7xl md:text-8xl text-white font-extrabold md:text-center pointer-events-auto text-left px-7">
