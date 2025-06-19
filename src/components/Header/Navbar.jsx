@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import reactLogo from '../../assets/react.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,7 +10,7 @@ export default function Navbar() {
     <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse ml-3">
-          <img src="vite.svg" className="h-8" alt="Logo" />
+          <img src={reactLogo} className="h-8" alt="Logo" />
         </a>
 
         <button
@@ -18,24 +21,15 @@ export default function Navbar() {
           aria-expanded={isOpen}
         >
           <span className="sr-only">Open main menu</span>
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 17 14">
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
+          <FontAwesomeIcon icon={faBars} size='2x' />
         </button>
 
         <div
-          className={`transition-all duration-300 ease-linear overflow-hidden md:overflow-visible md:transition-none ${
-            isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-          } w-full md:flex md:w-auto md:opacity-100`}
+          className={`transition-all duration-300 ease-linear overflow-hidden md:overflow-visible md:transition-none ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+            } w-full md:flex md:w-auto md:opacity-100`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
+          <ul className="flex items-center flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
             <li>
               <a
                 href="#"

@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router'
 import Layout from './Layout.jsx'
-import Home from './components/Home/Home.jsx'
+import Home from './components/Hero/Home.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
