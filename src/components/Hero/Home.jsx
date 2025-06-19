@@ -27,11 +27,11 @@ function Home() {
             {/* <FontAwesomeIcon icon={faPhone} size='xl'/> */}
             <img src={waLogo} alt="WhatsApp" width={30} />
           </a>
-          <a href="tel:+919272130703" className='pointer-events-auto hover:text-slate-800 hover:bg-white hover:rounded-full p-2 duration-300 ease-linear' target='_blank'>
+          <a href="tel:+919272130703" className='pointer-events-auto hover:text-slate-800 hover:bg-white hover:rounded-full p-2 duration-300 ease-linear'>
             {/* <FontAwesomeIcon icon={faWhatsapp} size='xl'/> */}
             <img src={phoneLogo} alt="Phone" width={30} />
           </a>
-          <a href="mailto:rainbowglobalexim@gmail.com" className='pointer-events-auto hover:text-slate-800 hover:bg-white hover:rounded-full p-2 duration-300 ease-linear' target='_blank'>
+          <a href="mailto:rainbowglobalexim@gmail.com" className='pointer-events-auto hover:text-slate-800 hover:bg-white hover:rounded-full p-2 duration-300 ease-linear'>
             {/* <FontAwesomeIcon icon={faWhatsapp} size='xl'/> */}
             <img src={gmailLogo} alt="Phone" width={30} />
           </a>
