@@ -8,3 +8,13 @@ html {
 .homeSliderCover {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.3), transparent);
 }
+
+.myUnderline::before {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 35%;
+    width: 30%;
+    height: 7px;
+    background-color: #00a63e;
+}

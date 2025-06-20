@@ -1,10 +1,12 @@
+import { logo } from "../../assets"
 
 function About() {
     return (
         <div id='about' className='min-h-screen flex justify-center items-center px-8 md:px-0 bg-slate-300 py-8'>
             <div className=' md:w-1/2 text-justify mt-5'>
-                <h1 className='text-center text-5xl font-extrabold mb-10'>ABOUT US</h1>
-                <p className='text-2xl'>Welcome to Rainbow Global Exim, a trusted name in the export of premium Indian agricultural produce. Based in Pune, Maharashtra – one of India’s major agri-trade hubs – we specialize in sourcing and exporting high-quality Red Onions from Nashik, Basmati & Non-Basmati Rice, Turmeric Fingers from Sangli, and Fresh Green Chilli.
+                <h1 className='text-center text-5xl font-extrabold mb-10 myUnderline relative'>ABOUT US</h1>
+                <img src={logo} alt="logo" className="mx-auto w-60 py-10"/>
+                <p className='text-2xl'>Welcome to <b className="border-b-3 border-green-600">Rainbow Global Exim</b>, a trusted name in the export of premium Indian agricultural produce. Based in Pune, Maharashtra – one of India’s major agri-trade hubs – we specialize in sourcing and exporting high-quality Red Onions from Nashik, Basmati & Non-Basmati Rice, Turmeric Fingers from Sangli, and Fresh Green Chilli.
                 </p>
                 <br />
                 <p className='text-2xl'>

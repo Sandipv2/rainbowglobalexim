@@ -1,5 +1,6 @@
 import About from "./components/About/About"
 import Home from "./components/Hero/Home"
+import Products from "./components/Products/Products"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Home />
       <About />
+      <Products />
     </>
   )
 }

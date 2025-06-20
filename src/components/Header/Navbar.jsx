@@ -7,10 +7,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 fixed w-full z-20 top-0 start-0 border-bborder-gray-600">
+    <nav className="bg-green-600 fixed w-full z-20 top-0 start-0 border-bborder-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse ml-3">
-          <img src={logo} className="h-8" alt="Logo" />
+          <img src={logo} className="w-20" alt="Logo"/>
         </a>
 
         <button
@@ -33,7 +33,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="home"
-                className="block py-2 px-3 rounded-sm hover:text-blue-400 text-white cursor-pointer"
+                className="text-xl font-bold block py-2 px-3 rounded-sm hover:text-green-900 duration-300 text-white cursor-pointer"
               >
                 Home
               </Link>
@@ -42,7 +42,7 @@ export default function Navbar() {
               <Link
                 to="about"
                 offset={-30}
-                className="block py-2 px-3 rounded-sm hover:text-blue-400 text-white cursor-pointer"
+                className="text-xl font-bold block py-2 px-3 rounded-sm hover:text-green-900 duration-300 text-white cursor-pointer"
               >
                 About
               </Link>
@@ -50,7 +50,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="products"
-                className="block py-2 px-3 rounded-sm hover:text-blue-400 text-white cursor-pointer"
+                className="text-xl font-bold block py-2 px-3 rounded-sm hover:text-green-900 duration-300 text-white cursor-pointer"
               >
                 Products
               </Link>
@@ -58,7 +58,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="contact"
-                className="block py-2 px-3 rounded-sm hover:text-blue-400 text-white cursor-pointer"
+                className="text-xl font-bold block py-2 px-3 rounded-sm hover:text-green-900 duration-300 text-white cursor-pointer"
               >
                 Contact
               </Link>
