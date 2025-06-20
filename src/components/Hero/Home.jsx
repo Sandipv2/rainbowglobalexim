@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -8,7 +8,9 @@ import { homeSlide1, homeSlide2, homeSlide3, homeSlide4, waLogo, igLogo, phoneLo
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
+
 function Home() {
+
   return (
     <div id='home' className="relative w-full h-screen">
       <div className="absolute top-0 left-0 z-10 flex flex-col justify-center items-center h-full w-full pointer-events-none gap-4">
