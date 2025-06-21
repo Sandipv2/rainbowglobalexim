@@ -3,7 +3,9 @@ import { logo2, igLogo, waLogo, phoneLogo, gmailLogo, locationLogo } from '../..
 function Contact() {
     return (
         <div id='contact' className='min-h-screen bg-slate-300 flex flex-col gap-30 justify-center items-center'>
-            <h1 className='text-center text-5xl font-extrabold myUnderline relative'>CONTACT US</h1>
+            <div>
+                <h1 className='w-fit m-auto text-5xl font-extrabold myUnderline relative'>CONTACT US</h1>
+            </div>
             <div className='flex justify-center items-center gap-15 md:gap-44 flex-col-reverse md:flex-row'>
                 <div className='flex flex-col gap-3 font-bold'>
                     <a href="#" target='_blank'>

@@ -5,7 +5,9 @@ function Products() {
     return (
         <div id="products" className="py-10 min-h-screen bg-slate-200 flex justify-center items-center">
             <div className=" bg-rded-400 w-3/5">
-                <h1 className="text-center text-5xl font-extrabold my-10 myUnderline relative">PRODUCTS</h1>
+                <div>
+                    <h1 className="w-fit m-auto text-5xl font-extrabold my-10 myUnderline relative">PRODUCTS</h1>
+                </div>
 
                 <div className="flex justify-center gap-7 flex-wrap pt-10">
                     <ProductCard to='products/onion' img={onion2} title='Onions' />
