@@ -11,9 +11,9 @@ function Products() {
 
                 <div className="flex justify-center gap-7 flex-wrap pt-10">
                     <ProductCard to='products/onion' img={onion2} title='Onions' />
-                    <ProductCard to='products/mango' img={mango3} title='Hapus Mango (Alphonso)' />
+                    <ProductCard to='products/mango' img={mango3} title='Fresh Alphonso (Hapus) Mango' />
                     <ProductCard to='products/rice' img={rice1} title='Basmati / Non-Basmati Rice' />
-                    <ProductCard to='products/chilli' img={chilli3} title='Chilli' />
+                    <ProductCard to='products/chilli' img={chilli3} title='Green Chilli' />
                     <ProductCard to='products/turmeric' img={turmeric3} title='Turmeric' />
                 </div>
             </div>
