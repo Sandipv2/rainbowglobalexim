@@ -6,6 +6,7 @@ import igLogo from './images/Hero/igLogo.svg'
 import waLogo from './images/Hero/waLogo.svg'
 import phoneLogo from './images/Hero/phoneLogo.svg'
 import gmailLogo from './images/Hero/gmailLogo.svg'
+import locationLogo from './images/Hero/locationLogo.png'
 import menuIcon from './images/Navbar/menuIcon.svg'
 import logo from './images/logo.png'
 import chilli1 from './images/Products/chilli1.jpg'
@@ -23,6 +24,7 @@ import turmeric3 from './images/Products/turmeric3.jpg'
 import rice1 from './images/Products/rice1.jpg'
 import rice2 from './images/Products/rice2.jpg'
 import rice3 from './images/Products/rice3.jpg'
+import logo2 from './images/logo2.png'
 
 export {
     homeSlide1,
@@ -34,7 +36,9 @@ export {
     phoneLogo,
     gmailLogo,
     menuIcon,
+    locationLogo,
     logo,
+    logo2,
     chilli1,
     chilli2,
     chilli3,

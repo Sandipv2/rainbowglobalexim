@@ -4,6 +4,7 @@ import Home from "./components/Hero/Home"
 import Products from "./components/Products/Products"
 import { scroller } from "react-scroll"
 import { useLocation } from "react-router"
+import Contact from "./components/Contact/Contact"
 
 function App() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
       <Home />
       <About />
       <Products />
+      <Contact />
     </>
   )
 }
