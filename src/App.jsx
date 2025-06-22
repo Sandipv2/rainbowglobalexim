@@ -27,7 +27,10 @@ function App() {
       default:
         scroller.scrollTo('home')
     }
-  },[]);
+
+    const htmlElement = document.documentElement;
+    htmlElement.style.scrollBehavior = "smooth";
+  }, []);
 
   return (
     <>

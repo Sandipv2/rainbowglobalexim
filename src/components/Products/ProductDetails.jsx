@@ -2,11 +2,17 @@ import { useParams } from "react-router"
 import { mango1, mango2, mango3, onion1, onion2, onion3, rice1, rice2, rice3, chilli1, chilli2, chilli3, turmeric1, turmeric2, turmeric3} from '../../assets';
 import { MangoDetail, OnionDetail, RiceDetail, ChilliDetail, TurmericDetail } from "./ProductContents";
 import ProductDetailComp from './ProductDetailComp'
+import { useEffect } from "react";
 
 function ProductDetails() {
     const { product } = useParams();
 
+    useEffect(() => {
+        const htmlElement = document.documentElement;
+        htmlElement.style.scrollBehavior = "auto";
 
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
         <div className='bg-slate-200 mt-20'>

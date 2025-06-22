@@ -5,10 +5,6 @@
   font-family: "Poppins";
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .homeSliderCover {
   background: linear-gradient(
     to top,
