@@ -15,7 +15,7 @@ function ProductDetails() {
     }, [])
 
     return (
-        <div className='bg-slate-200 mt-20'>
+        <div className='bg-slate-200 mt-18'>
             {product === 'mango' && <ProductDetailComp img1={mango1} img2={mango2} img3={mango3} productName='Alphonso (Hapus) Mango' ProductDetails={MangoDetail}/>}
 
             {product === 'onion' && <ProductDetailComp img1={onion1} img2={onion2} img3={onion3} productName='Red Onion' ProductDetails={OnionDetail}/>}

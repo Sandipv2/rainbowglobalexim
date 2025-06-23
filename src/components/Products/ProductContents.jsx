@@ -1,5 +1,5 @@
 export const MangoDetail = () => (
-    <ul className='text-xl mt-10'>
+    <ul className='md:text-xl mt-10'>
         <li>
             <b>Origin:</b>
             <p>Ratnagiri, Devgad - Premium Alphonso Mango Belt of Maharashtra</p>
@@ -47,7 +47,7 @@ export const MangoDetail = () => (
 )
 
 export const OnionDetail = () => (
-    <ul className='text-xl mt-10'>
+    <ul className='md:text-xl mt-10'>
         <li>
             <b>Origin:</b>
             <p>Nashik, Maharashtra - India's leading onion-producing region, known for its pungent flavor and longer shelf life</p>
@@ -106,7 +106,7 @@ export const OnionDetail = () => (
 )
 
 export const RiceDetail = () => (
-    <ul className="text-xl mt-10">
+    <ul className="md:text-xl mt-10">
         <li>
             <b>Origin:</b>
             <p>Punjab, Haryana, Uttar Pradesh, Chhattisgarh, West Bengal</p>
@@ -170,7 +170,7 @@ export const RiceDetail = () => (
 )
 
 export const ChilliDetail = () => (
-    <ul className="text-xl mt-10">
+    <ul className="md:text-xl mt-10">
         <li>
             <b>Origin:</b>
             <p>Andhra Pradesh, Karnataka, Maharashtra - India's leading chilli belts.</p>
@@ -219,7 +219,7 @@ export const ChilliDetail = () => (
 )
 
 export const TurmericDetail = () => (
-    <ul className="text-xl mt-10">
+    <ul className="md:text-xl mt-10">
         <li>
             <b>Origin:</b>
             <p>Sangli, Maharashtra - India's leading turmeric-growing belt, known for its rich curcumin content and bold color.</p>
