@@ -3,7 +3,7 @@ import About from "./components/About/About"
 import Home from "./components/Hero/Home"
 import Products from "./components/Products/Products"
 import { scroller } from "react-scroll"
-import { useLocation } from "react-router"
+import { useLocation } from "react-router-dom"
 import Contact from "./components/Contact/Contact"
 
 function App() {

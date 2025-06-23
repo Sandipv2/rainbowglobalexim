@@ -1,4 +1,4 @@
-import { useParams } from "react-router"
+import { useParams } from "react-router-dom"
 import { mango1, mango2, mango3, onion1, onion2, onion3, rice1, rice2, rice3, chilli1, chilli2, chilli3, turmeric1, turmeric2, turmeric3} from '../../assets';
 import { MangoDetail, OnionDetail, RiceDetail, ChilliDetail, TurmericDetail } from "./ProductContents";
 import ProductDetailComp from './ProductDetailComp'

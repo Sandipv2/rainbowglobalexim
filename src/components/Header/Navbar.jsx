@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { logo2 } from '../../assets';
 import { menuIcon } from '../../assets';
-import { useNavigate, useLocation } from 'react-router';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { Link, scroller } from 'react-scroll'
 
 export default function Navbar() {
