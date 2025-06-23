@@ -5,12 +5,14 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Layout from './Layout.jsx'
 import App from './App.jsx'
 import ProductDetails from './components/Products/ProductDetails.jsx'
+import Error404 from './components/NotFound/Error404.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
       <Route path='' element={<App />} />
       <Route path='/products/:product' element={<ProductDetails />} />
+      <Route path='*' element={<Error404 />}></Route>
     </Route>
   )
 )
