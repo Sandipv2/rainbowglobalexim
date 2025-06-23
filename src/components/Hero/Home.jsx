@@ -11,10 +11,10 @@ function Home() {
     <div id='home' className="relative w-full h-screen">
       <div className="absolute top-0 left-0 z-10 flex flex-col justify-center items-center h-full w-full pointer-events-none gap-4">
         <div className='flex flex-col justify-center items-center gap-3'>
-          <h1 className="text-7xl md:text-8xl text-white font-extrabold md:text-center pointer-events-auto text-left px-7">
+          <h1 className="text-6xl md:text-8xl text-white font-extrabold md:text-center pointer-events-auto text-left px-7">
             RAINBOW GLOBAL EXIM.
           </h1>
-          <p className='text-lg md:text-3xl font-bold text-white pointer-events-auto bg-green-600 px-8'>Delivering Indian Freshness Worldwide</p>
+          <p className='md:text-3xl font-bold text-white pointer-events-auto bg-green-600 px-2'>Delivering Indian Freshness Worldwide</p>
         </div>
         <div className='flex gap-5 text-stone-200'>
           <a href="https://www.instagram.com/rainbowglobalexim/" className='pointer-events-auto hover:text-slate-800 hover:bg-white hover:rounded-full p-2 duration-300 ease-linear' target='_blank'>

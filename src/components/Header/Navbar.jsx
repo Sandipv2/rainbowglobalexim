@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { logo } from '../../assets';
+import { logo2 } from '../../assets';
 import { menuIcon } from '../../assets';
 import { useNavigate, useLocation } from 'react-router';
 import { Link, scroller } from 'react-scroll'
@@ -23,9 +23,9 @@ export default function Navbar() {
 
   return (
     <nav className="bg-green-600 fixed w-full z-20 top-0 start-0 border-bborder-gray-600">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
         <Link to="/" onClick={() => handleNavClick('home')} className="flex items-center ml-3 cursor-pointer">
-          <img src={logo} className="w-20" alt="Logo" />
+          <img src={logo2} className="w-40" alt="Logo" />
         </Link>
 
         <button
